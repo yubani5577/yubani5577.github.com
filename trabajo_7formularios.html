@@ -1,0 +1,296 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>fORMULARIOS html</title>
+<link href="../css/style.page.css" rel="stylesheet" type="text/css"> 
+	<style type="text/css"> 
+		nav,main,header,footer{
+			width: auto;
+			height: auto;
+		}
+		li{
+			margin: 10px auto;
+			width: auto;
+			height: auto;
+		}
+		form{
+			width: 50%;
+			height: auto;
+			padding: 30px;
+			background-color: #822955;
+			color:#ffdbd7;
+			margin: 0 auto;
+			margin-bottom: 15px;
+			margin-top: 20px;
+			
+		}
+		label,input{
+			display: block;
+			margin-left: 10px; 
+		}
+		label{
+			padding-bottom: 5px;
+			padding-top: 5px;
+		}
+		input[type=text],input[type=password]{
+			width: 90%;
+			color:#822955;
+			padding: 8px;
+		}
+		input[type=submit]{
+			width: 30%;
+			background-color:#FFC5D5;
+			padding: 10PX;
+			margin-top: 20PX;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		input{
+			background: center;
+			background-color:#DF93F0;
+		}
+		input[type=text]:focus,input[type=password]:focus,input[type=number]:focus,input[type=reset]:focus{
+			background-color:#B3BDDD;
+			border: 5px solid #FF72E8;
+		}
+		input[type=number]{
+			width: 90%;
+			color:#822955;
+			padding: 8px;
+		}
+		select,name=select{
+			margin-left: auto; 
+		}
+		input[type=reset]{
+			margin-top: 10px; 
+			margin-left: auto;
+			margin-right: auto;
+		}
+		input[type=button]{
+			margin-left:auto;
+			margin-right: auto;
+		}
+		input[type=color]{
+			margin-left:auto;
+			margin-right: auto;
+		}
+		input[type=date]{
+			margin-left:auto;
+			margin-right: auto;
+		}
+		input[type=datetime-local]{
+			margin-left:auto;
+			margin-right: auto;
+		}
+		input[type=email]{
+			margin-left:auto;
+			margin-right: auto;
+		}
+		input[type=image]{
+			margin-left:auto;
+			margin-right: auto;
+			margin-top: 20px;
+		}
+		input[type=month]{
+			margin-left:auto;
+			margin-right: auto;
+		}
+		input[type=tel]{
+			margin-left:auto;
+			margin-right: auto;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+
+<body>
+<header>
+	<h1>FORMULARIOS EN HTML</h1>
+</header>
+<nav>
+		<ul>
+			<li><a href="../html/formularios.html" title="imagenes en html" target="new">Inicio</a></a></li>
+			<li><a href="listas.html" >listas</a></li>
+			
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="../html/mi_primera_pagina.html">Enlaces</a></li>
+			<li><a href="imagenes.html" >imagenes</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="../html/Video.html">video</a></li>
+			<li><a href="../html/formularios.html">Formularios</a></li>
+		</ul> 
+</nav>
+<main>
+  <section>
+    <h5>FORMULARIO USUARIO 1 </h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim harum, quod repudiandae aspernatur quisquam nemo a illo molestiae et similique nisi dolores delectus sapiente, perferendis, iste praesentium fuga voluptatibus eos. Et temporibus omnis voluptatibus, consequatur optio praesentium cupiditate fugiat voluptate veritatis iusto quis tempore officiis ducimus alias eaque beatae animi facere eveniet nostrum! Cumque quae consequuntur nulla dolor, laboriosam dolore officia. Fugit minima, quas, cumque odio dolor esse voluptates ab est repellendus, ipsum corporis repellat tempore reiciendis facere expedita dolore ad. Mollitia, maxime tempora numquam ut excepturi esse veritatis, iure architecto omnis ex eius minus veniam nihil quia deleniti fugiat.</p>
+	  <form action="" method="get"> 
+	  	<label id=""> Nombre: </label>
+		  <input type="text" id="nombre" name="nombre">
+		  <label id="" >Contraseña: </label>
+		  <input type="password" id="contrasena" name="contrasena">
+		  <input type="submit">
+	  </form>
+  </section>
+	
+	 <section>
+    <h5>FORMULARIO USUARIO 2 </h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim harum, quod repudiandae aspernatur quisquam nemo a illo molestiae et similique nisi dolores delectus sapiente, perferendis, iste praesentium fuga voluptatibus eos. Et temporibus omnis voluptatibus, consequatur optio praesentium cupiditate fugiat voluptate veritatis iusto quis tempore officiis ducimus alias eaque beatae animi facere eveniet nostrum! Cumque quae consequuntur nulla dolor, laboriosam dolore officia. Fugit minima, quas, cumque odio dolor esse voluptates ab est repellendus, ipsum corporis repellat tempore reiciendis facere expedita dolore ad. Mollitia, maxime tempora numquam ut excepturi esse veritatis, iure architecto omnis ex eius minus veniam nihil quia deleniti fugiat.</p>
+    <form id="form1" name="form1" method="post">
+		
+	  <label for="textfield">Nombre</label>
+       <input type="text" name="textfield" id="textfield_2">
+		
+       <label for="Edad">Edad:</label>
+       <input type="number" name="number" id="number" min="18" max="100">
+		
+       <label for="Estado">	Estado:</label>
+      <select name="select" id="select">
+		  <option value="Aguascalientes"> Aguascalientes</option>
+		  <option value="Durango">Durango</option>
+		  <option value="Guadalajara">Guadalajara</option>
+		  <option value="Jalisco">Jalisco</option>
+		  <option value="Veracruz">Veracruz</option>
+		  <option value="Puebla">Puebla</option>
+		  <option value="Tlaxcala">Tlaxcala</option>
+       </select>
+       <input type="submit">
+      
+    </form>
+  </section>
+	 <section>
+    <h5>FORMULARIO USUARIO 3 </h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim harum, quod repudiandae aspernatur quisquam nemo a illo molestiae et similique nisi dolores delectus sapiente, perferendis, iste praesentium fuga voluptatibus eos. Et temporibus omnis voluptatibus, consequatur optio praesentium cupiditate fugiat voluptate veritatis iusto quis tempore officiis ducimus alias eaque beatae animi facere eveniet nostrum! Cumque quae consequuntur nulla dolor, laboriosam dolore officia. Fugit minima, quas, cumque odio dolor esse voluptates ab est repellendus, ipsum corporis repellat tempore reiciendis facere expedita dolore ad. Mollitia, maxime tempora numquam ut excepturi esse veritatis, iure architecto omnis ex eius minus veniam nihil quia deleniti fugiat.</p>
+    <form id="form2" name="form2" method="post">
+      <label for="textfield">Nombre:</label>
+		<input type="text" name="textfield" id="textfield_3">
+		<label for="Genero">Genero:</label>
+		<table style="width:40%;">
+			<tr> 
+				<td><input type="radio" name="Genero" value="fem" id="Genero_0"></td>
+				<td><label>Femenino</label></td>
+			</tr>
+			<tr> 
+				<td><input type="radio" name="Genero" value="mas" id="Genero_1"></td>
+				<td><label>Masculino</label></td>
+			</tr>
+			<tr> 
+				<td><input type="radio" name="Genero" value="Otro" id="Genero_3"></td>
+				<td><label>Otro</label></td>
+			</tr>
+		</table>
+	  <label for="musica">¿Cuál es tu genero musical favorito?</label>
+		<table> 
+		  <tr>
+		    <td><input type="checkbox" name="Musica" value="clasica" id="Musica_0"></td>
+			    <td><label>Clasica</label></td>
+	      </tr>
+		  <tr>
+		    <td><input type="checkbox" name="Musica" value="pop" id="Musica_1"></td>
+			  	<td><label>Pop</label></td>
+	      </tr>
+		  <tr>
+		    <td><input type="checkbox" name="Musica" value="reggaeton" id="Musica_2"></td>
+		     	<td><label> Reggaetón</label></td>
+	      </tr>
+		  <tr>
+		    <td><input type="checkbox" name="Musica" value="rap" id="Musica_3"></td>
+		      <td><label>Rap</label></td>
+	      </tr>
+		  <tr>
+		    <td><input type="checkbox" name="Musica" value="hip hop" id="Musica_4"></td>
+		      <td><label>Hip hop</label></td>
+	      </tr>
+		  <tr>
+		    <td><input type="checkbox" name="Musica" value="k-pop" id="Musica_5"></td>
+		      <td><label>K-pop</label></td>
+		  <tr>
+		    <td><input type="checkbox" name="Musica" value="jazz" id="Musica_6"></td>
+		      <td><label>Jazz</label></td>
+	      </tr>
+		</table>
+		<input type="submit">
+    </form>
+  
+  </section>
+	 <section>
+    <h5>FORMULARIO USUARIO 4 </h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim harum, quod repudiandae aspernatur quisquam nemo a illo molestiae et similique nisi dolores delectus sapiente, perferendis, iste praesentium fuga voluptatibus eos. Et temporibus omnis voluptatibus, consequatur optio praesentium cupiditate fugiat voluptate veritatis iusto quis tempore officiis ducimus alias eaque beatae animi facere eveniet nostrum! Cumque quae consequuntur nulla dolor, laboriosam dolore officia. Fugit minima, quas, cumque odio dolor esse voluptates ab est repellendus, ipsum corporis repellat tempore reiciendis facere expedita dolore ad. Mollitia, maxime tempora numquam ut excepturi esse veritatis, iure architecto omnis ex eius minus veniam nihil quia deleniti fugiat.</p>
+    <form id="restablecer" name="restablecer" method="restablecer">
+      <label>1.- Entrada: Restablecer</label>
+      <label for="nombre">Nombre:</label><br>
+	  <input type="text" name="textfield" id="textfield_4">
+	  <label for="apellido">Apellido:</label>
+	  <input type="text" name="textfield" id="textfield_5">
+  	  <input type="submit">
+  	  <input type="reset" name="reset" id="reset" value="Restablecer">
+    </form>
+		 
+	<form id="form3" name="form3" method="post">
+      <label>2.- Botón de tipo de entrada</label>
+	  <input type="button" onclick="alert('Hola mis, como está')" value="Click aquí">
+    </form>
+		 
+	<form>
+		<label>3.- Tipo de entrada Color</label>
+		<label for="colorfavorito">Selecciona tu color favorito:</label>
+		<input type="color" id="colorfavorito" name="colorfavorito" value="#00F000">
+		<input type="submit">
+	</form>
+	<form>
+		<label>4.- Tipo de entrada Fecha</label>
+  		<label for="cumpleaños">Selecciona la fecha de tu cumpleaños:</label>
+  		<input type="date" id="cumpleaños" name="cumpleaños">
+  		<input type="submit">
+	</form>
+	<form>
+		<label>5.- Tipo de entrada Fecha y hora local</label>
+  		<label for="tiempo" >Fecha y hora actual:</label>
+  		<input type="datetime-local" id="tiempo" name="tiempo">
+  		<input type="submit">
+	</form>
+	<form>
+		<label>6.- Tipo de entrada Correo electrónico</label>
+  		<label for="correo">Ingresa tu correo estudiantil:</label>
+		<input type="email" id="correo" name="correo">
+		<input type="submit">
+	</form>
+	<form>
+		<label>7.- Tipo de entrada Imagen</label>
+		<label for="nombre">Nombre: </label>
+		<input type="text" name="textfield" id="textfield_6">
+		<label for="apellido">Apellido:</label>
+		<input type="text" name="textfield" id="textfield_7">
+		<form><input type="image" src="../imagenes/icono_1.png" alt="Submit" width="48" height="48">
+		</form>
+    <form>
+		<label>8.- Archivo de tipo de entrada </label>
+		<label>Subir archivo:</label>
+  		<input type="file" id="archivo" name="archivo">
+  		<input type="submit">
+	</form>
+	<form>
+		<label>9.-Tipo de entrada Mes</label>
+		<label>Inserta el mes de tu cumpleaños:</label>
+		<input type="month" id="cumple" name="cumple">
+		<input type="submit">
+	</form>
+	<form>
+		<label>10.- Tipo de entrada Tel</label>
+		<label>Ingresa tu numero de telefono:</label>
+		<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+		<input type="submit">
+		
+	</form>
+ 
+  </section>
+  
+</main>
+<footer>
+  <h5>Elaborado por yubani piscil jimenenz</h5>
+</footer>
+	
+	
+</body>
+</html>

@@ -1,0 +1,446 @@
+<html>
+ <head>
+ <title> TABLAS EN HTML</title>
+ <link rel="stylesheet" href="../css/style.page.css" type="text/css">
+ <style type="text/css">
+ #tabla_uno{
+ width: 100%;
+ text-align: center;
+ margin: 0 auto;
+ color:#855e6e;
+ border-style: solid;
+ border-color:#ffb2c1;
+ border-width: 5px;
+ border-spacing: 10px;
+ }
+ #tabla_uno{
+ background-color: #f7f1e1;
+ }
+ #tabla_uno{
+ background-color:#ffb2c1;
+ color:#855e6e;
+ text-align:left;
+ border-style: solid;
+ border-color:#CE7095;
+ border-top-width: 3px;
+ border-radius: 5px;
+ margin: 10px;
+ }
+ /*#tabla_2{
+ color:#f7f1e1;
+ }
+ #tabla_2{
+ color:#f7f1e1;
+ height:50px;
+ padding:5px;
+ }*/
+ ·celda_centrada{
+ text-align: center;
+ padding: 0px;
+ background-color:#ffb2c1;
+ }
+ .tabla_dos{
+ width: 700px;
+ border-collapse:collapse;
+ border-color:#f7f1e1;
+ border-style: solid;
+ margin: 0 auto;
+ }
+ .tabla_dos td, .tabla_dos th{
+ /*width: 150px;*/
+ border-color:#f7f1e1;
+ color: palevioletred;
+ padding: 10px;
+ border-style: dashed;
+ }
+ .tabla_2{
+ color: #f7f1e1;
+ }
+ .tabla_2 td{
+ color: #ffb2c1;
+ height: 50px;
+ padding: 5px;
+ }
+ .tabla_dos th{
+ background-color: #ffb2c1
+ }
+ .tabla_dos td{
+ background-color: #855e6e;
+ color: #f7f1e1;
+ }
+ main{
+ background-color:#ffb2c1;
+	 margin-right: 20px;
+ }
+ #tabla_zebra{
+ width: 90%;
+ margin: 0 auto;
+ color: #855e6e;
+ }
+ #tabla_zebra tr:nth-child(even){
+ background-color:#ffb2c1;
+ }
+ #tabla_zebra tbody tr:nth-last-child(odd){
+ background-color:#f7f1e1;
+ }
+ #tabla_zebra thead tr{
+ background-color:#CE7095;
+ }
+
+
+ #tabla_hover{
+ width: 80%;
+ margin: 0 auto;
+ color: #855e6e;
+ }
+ #tabla_hover thead tr:nth-child(even){
+ background-color:#ffb2c1;
+ padding: 20px;
+ border: 10px solid red;
+ }
+ #tabla_hover tbody tr:nth-last-child(odd){
+ background-color:#f7f1e1;
+ padding: 10px;
+ }
+ #tabla_hover tbody tr:hover{
+ color: blue;
+ background-color: blueviolet;
+ border: 5px solid green;
+ }
+ #tabla_hover tr:nth-child(even){
+ background-color:#ffb2c1;
+ padding: 20px;
+ border: 10px solid red;
+ }
+ #tabla_hover thead tr{
+ background-color:#CE7095;
+ color: #f7f1e1;
+ }
+ #nav{
+ background-color: aqua;
+ }
+ </style>
+ </head>
+ <body>
+ <header>
+ <h1>TABLAS EN HTML</h1>
+ </header>
+ <nav>
+ <ol>
+ <li><a href="#">INICIO</a></li>
+ <li><a href="#">LISTAS</a></li>
+ <li><a href="#">ENLACES</a></li>
+ <li><a href="#">IMAGEN</a></li>
+ <li><a href="#">AUDIO</a></li>
+ <li><a href="#">VIDEO</a></li>
+ <li><a href="#">FORMUÑARIOS</a></li>
+ </ol>
+ <main>
+ <section style="overflow-x: auto">
+ <h2> Tablas </h2>
+ <p>Hay muchas variaciones de los pasajes de Lorem Ipsum
+disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea
+porque se le agregó humor, o palabras aleatorias que no parecen ni un poco
+creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro
+de que no hay nada avergonzante escondido en el medio del texto. Todos los
+generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir
+trozos predefinidos cuando sea necesario, haciendo a este el único generador
+verdadero (válido) en la Internet. Usa un diccionario de mas de 200 palabras
+provenientes del latín, combinadas con estructuras muy útiles de sentencias,
+para generar texto de Lorem Ipsum que parezca razonable. Este Lorem Ipsum
+generado siempre estará libre de repeticiones, humor agregado o palabras no
+características del lenguaje, etc.</p>
+ <table border="1" id="tabla_uno">
+ <thead>
+ <tr>
+ <th>Matricula</th>
+ <th>Nombre</th>
+ <th>Apellido Paterno</th>
+ <th>Apellido Materno</th>
+ <th>Colegio</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>202051903</td>
+ <td>Yubani</td>
+ <td>Piscil</td>
+ <td>Jimenez</td>
+ <td>Diseño grafico</td>
+ </tr>
+ <tr>
+ <td>202003115</td>
+ <td>Rodolfo</td>
+ <td>Vela</td>
+ <td>Jimenez</td>
+ <td>Enfermeria</td>
+ </tr>
+ <tr>
+ <td>202013510</td>
+ <td>Estiven</td>
+ <td>Alvarez</td>
+ <td>Cortez</td>
+ <td>Diseño grafico</td>
+ </tr>
+ <tr>
+ <td>202062973</td>
+ <td>Valerìa</td>
+ <td>Rios</td>
+ <td>Perez</td>
+ <td>Urbanismo</td>
+ </tr>
+ <tr>
+ <td>202045976</td>
+ <td>Berenice</td>
+ <td>Diaz</td>
+ <td>Guzman</td>
+ <td>Arquitectura</td>
+ </tr>
+ </tbody>
+ <tfoot> </tfoot>
+ </table>
+ <section style="overflow-x: auto">
+ <h2> Tablas </h2>
+ <p>Hay muchas variaciones de los pasajes de Lorem Ipsum
+disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea
+porque se le agregó humor, o palabras aleatorias que no parecen ni un poco
+creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro
+de que no hay nada avergonzante escondido en el medio del texto. Todos los
+generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir
+trozos predefinidos cuando sea necesario, haciendo a este el único generador
+verdadero (válido) en la Internet. Usa un diccionario de mas de 200 palabras
+provenientes del latín, combinadas con estructuras muy útiles de sentencias,
+para generar texto de Lorem Ipsum que parezca razonable. Este Lorem Ipsum
+generado siempre estará libre de repeticiones, humor agregado o palabras no
+características del lenguaje, etc.</p>
+ <table id="tabla_2" class="tabla_dos" >
+ <thead>
+ <tr>
+ <th style="width:200px">NOMBRE</th>
+ <th style="width:150opx">EDAD</th>
+ <th style="width:200px" colspan="2">TELEFONO</
+th>
+ <th style="width:150px">COOPERACIÒN</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Maria</td>
+ <td style="text-align: center;
+padding: :0px">20</td>
+ <td>2228230532</td>
+ <td>2228230532</td>
+ <td style="text-align: center; padding: 0px;
+background-color: #ffb2c1">100</td>
+ </tr>
+ <tr>
+ <td>Rogelio</td>
+ <td style="text-align: center;
+padding: :0px">22</td>
+ <td>2227935801</td>
+ <td>2228230532</td>
+ <td style="text-align: center; padding: 0px;
+background-color: #ffb2c1" >80</td>
+ </tr>
+ <tr>
+ <td>Vanelope</td>
+ <td style="text-align: center;
+padding: :0px">19</td>
+ <td>2221593685</td>
+ <td>2228230532</td>
+ <td style="text-align: center; padding: 0px;
+background-color: #ffb2c1" >120</td>
+ </tr>
+ <tr>
+ <td>Ralph</td>
+ <td style="text-align: center;
+padding: :0px">25</td>
+ <td>2227418529</td>
+ <td>2228230532</td>
+ <td style="text-align: center; padding: 0px;
+background-color: #ffb2c1">115</td>
+ </tr>
+ <tr>
+ <td>Concha</td>
+ <td style="text-align: center;
+padding: :0px">23</td>
+ <td>2252746539</td>
+ <td>2228230532</td>
+ <td style="text-align: center; padding: 0px;
+background-color: #ffb2c1">126</td>
+ </tr>
+ </tbody>
+ <tfoot>
+ <tr>
+ <td> </td>
+ <td> </td>
+ <td> </td>
+ <td> </td>
+ <td class="celda_centrada" style="backgroundcolor: palevioletred; color: aliceblue" >TOTAL $541 </td>
+ </tr>
+ </tfoot>
+ </table>
+ </section>
+ <section style="overflow-x: auto">
+ <h2> Tablas </h2>
+ <p>Hay muchas variaciones de los pasajes de Lorem Ipsum
+disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea
+porque se le agregó humor, o palabras aleatorias que no parecen ni un poco
+creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro
+de que no hay nada avergonzante escondido en el medio del texto. Todos los
+generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir
+trozos predefinidos cuando sea necesario, haciendo a este el único generador
+verdadero (válido) en la Internet. Usa un diccionario de mas de 200 palabras
+provenientes del latín, combinadas con estructuras muy útiles de sentencias,
+para generar texto de Lorem Ipsum que parezca razonable. Este Lorem Ipsum
+generado siempre estará libre de repeticiones, humor agregado o palabras no
+características del lenguaje, etc.</p>
+ </section>
+ <table id="tabla_zebra">
+ <thead>
+ <tr>
+ <th>Nombre</th>
+ <th>Edad</th>
+ <th>Deporte</th>
+ <th>Telefono</th>
+ <th>Email</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Louerdes der Calvario Torres</td>
+ <td>15</td>
+ <td>Futbol</td>
+ <td>2223698521</td>
+ <td>Lou_2456@gmail.com</td>
+ </tr>
+ <tr>
+ <td>Martha Sanchez Díaz</td>
+ <td>25</td>
+ <td>Danza</td>
+ <td>22256987143</td>
+ <td>Mar_2583_deg@hotmaol.com</td>
+ </tr>
+ <tr>
+ <td>Isabella Bello Gamboa</td>
+ <td>33</td>
+ <td>Natgación</td>
+ <td>2214596758</td>
+ <td>Bell_Ho8kjn@gmail.com</td>
+ </tr>
+ <tr>
+ <td>Nancy Dimas Montiel</td>
+ <td>27</td>
+ <td>Footbal</td>
+ <td>2221453278</td>
+ <td>Di_ma_fgihuewhsd@hotmail.com</td>
+ </tr>
+ <tr>
+ <td>Jamil Nacif Hernández</td>
+ <td>41</td>
+ <td>Karate</td>
+ <td>2223651474</td>
+ <td>Jamil_nacif_33hd@gmail.com</td>
+ </tr>
+ <tr>
+ <td>Jose Rodolfo Vela Jimenez</td>
+ <td>24</td>
+ <td>Taekwondo</td>
+ <td>2225874139</td>
+ <td>Vela_Jmnz_1225@gmail.com</td>
+ </tr>
+ <tr>
+ <td>Norma Romero Luciano</td>
+ <td>56</td>
+ <td>Natación</td>
+ <td>2225698413</td>
+ <td>Romero_norma_12mUJn@GMAIL.com</td>
+ </tr>
+ </tbody>
+ </table>
+ <section class=" tabla tabla_hover">
+ <h2> Tablas </h2>
+ <p>Hay muchas variaciones de los pasajes de Lorem Ipsum
+disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea
+porque se le agregó humor, o palabras aleatorias que no parecen ni un poco
+creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro
+de que no hay nada avergonzante escondido en el medio del texto. Todos los
+generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir
+trozos predefinidos cuando sea necesario, haciendo a este el único generador
+verdadero (válido) en la Internet. Usa un diccionario de mas de 200 palabras
+provenientes del latín, combinadas con estructuras muy útiles de sentencias,
+para generar texto de Lorem Ipsum que parezca razonable. Este Lorem Ipsum
+generado siempre estará libre de repeticiones, humor agregado o palabras no
+características del lenguaje, etc.</p>
+ </section>
+ <table id="tabla_hover">
+ <thead>
+ <tr>
+ <th>Nombre</th>
+ <th>Edad</th>
+ <th>Deporte</th>
+ <th>Telefono</th>
+ <th>Email</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Louerdes der Calvario Torres</td>
+ <td>15</td>
+ <td>Futbol</td>
+ <td>2223698521</td>
+ <td>Lou_2456@gmail.com</td>
+ </tr>
+ <tr>
+ <td>Martha Sanchez Díaz</td>
+ <td>25</td>
+ <td>Danza</td>
+ <td>22256987143</td>
+ <td>Mar_2583_deg@hotmaol.com</td>
+ </tr>
+ <tr>
+ <td>Isabella Bello Gamboa</td>
+ <td>33</td>
+ <td>Natgación</td>
+ <td>2214596758</td>
+ <td>Bell_Ho8kjn@gmail.com</td>
+ </tr>
+ <tr>
+ <td>Nancy Dimas Montiel</td>
+ <td>27</td>
+ <td>Footbal</td>
+ <td>2221453278</td>
+ <td>Di_ma_fgihuewhsd@hotmail.com</td>
+ </tr>
+ <tr>
+ <td>Jamil Nacif Hernández</td>
+ <td>41</td>
+ <td>Karate</td>
+ <td>2223651474</td>
+ <td>Jamil_nacif_33hd@gmail.com</td>
+ </tr>
+ <tr>
+ <td>Jose Rodolfo Vela Jimenez</td>
+ <td>24</td>
+ <td>Taekwondo</td>
+ <td>2225874139</td>
+ <td>Vela_Jmnz_1225@gmail.com</td>
+ </tr>
+ <tr>
+ <td>Norma Romero Luciano</td>
+ <td>56</td>
+ <td>Natación</td>
+ <td>2225698413</td>
+ <td>Romero_norma_12mUJn@GMAIL.com</td>
+ </tr>
+ </tbody>
+ </table>
+
+ </section>
+ </main>
+ <footer>
+ <h5> Elaborado por Yubani Piscil Jimenez </h5>
+ </footer>
+ </nav>
+ </body>
+</html>

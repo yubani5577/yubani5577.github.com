@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+{
+ margin: 0px;
+ padding:0px;
+}
+header,nav,main,footer¨{
+ width: 960px;
+ padding: 20px;
+ margin-left: auto;
+ margin-right: auto;
+}
+header{
+ height: 80px;
+ background-color: #ffb2c1;
+ color: #855e6e;
+ text-align: center;
+}
+nav, #cuadros_base {
+ height:auto;
+ background-color: #CE7095;
+ margin: auto;
+}
+main{
+ height: auto;
+ background-color: #ffdbd7;
+}
+section{
+ width: 800px;
+ height:auto;
+ background-color: #855e6e;
+ margin-bottom: 20px;
+ margin-left:auto;
+ margin-right: auto;
+ padding:10px;
+}
+footer{
+ background-color:#855e6e;
+ color: #ffdbd7;
+ text-align: center;
+ padding: 10px;
+ margin:auto;
+ width: 980px;
+ height:auto;
+}
+h1,h5{
+ text-align:center;
+}
+ul{
+ text-align:center;
+}
+ul li{
+ display:inline-block;
+ width:160px;
+ padding:10px;
+ background-color:#855e6e;
+ color:#f7f1e1;
+ text-decoration:none;
+ margin: 3px;
+}
+nav ul li a:visited, nav ul li a:link{
+ color: #ffdbd7;
+ text-decoration: none;
+}
+nav ul li:hover{
+ background-color: #ffb2c1;
+}
+nav ul li a:link{
+ color:#ffdbd7;
+}
+main nav{
+ width:780px;
+ padding: 20px;
+}
+h2,p{
+ color: #ffb2c1;
+}
+h2{
+ margin-bottom: 10px;
+ padding-left: 20px;
+ padding-right:20px;
+}
+#imagen1{
+ width: 400px;
+ height: auto;
+ display: block;
+ margin-top: 20px;
+ margin-left: auto;
+ margin-right: auto;
+}
+#imagen2{
+ width: 300px;
+ float: right;
+}
+#imagen3{
+ width: 300px;
+ float:left;
+ margin-right:10px;
+ }
+#GIFT{
+ width: 500px;
+ padding-left:150px;
+}
+#fondo_section{
+ background-image: url("../imagenes/ladybug_2.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-position: center;
+}
+#fondo_section p, #fondo_section{
+ color: #855e6e;
+}
+#icono1{
+ width:40px;
+ height: auto;
+ display: block;
+ margin-top: 10px;
+ margin-left: auto;
+ margin-right: auto;
+}
